@@ -74,7 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### `Instrukcja obsługi`
 
 Stwórz folder. Nazwa folderu musi być z małych liter. Przejdź do folderu.
-Pobierz wszystkie pliki z tego repozytorium z githaba.
+Pobierz wszystkie pliki z tego repozytorium z githaba do tego folderu.
 
 Potem wpisz następujące komendy:
 
