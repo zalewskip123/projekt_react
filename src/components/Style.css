@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.tytul {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(146, 17, 140);
+    padding: 0 45%;
+    color: rgb(252, 252, 252);
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.joke {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 14;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+};
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.react-toggle-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+  
+.react-toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 80px;
+    height: 22px;
+    background: rgb(224, 230, 224);
+    border-radius: 50px;
+    position: relative;
+    transition: background-color .2s;
+}
+  
+.react-toggle-label .react-toggle-button {
+    content: '';
+    position: absolute;
+    left: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    transition: 0.2s;
+    background: purple;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+  
+.react-toggle-checkbox:checked + .react-toggle-label .react-toggle-button {
+    left: calc(100% - 1px);
+    transform: translateX(-100%);
+}
+  
+.react-toggle-label:active .react-toggle-button {
+    width: 60px;
+}
+
+.toggleDiv {
+    margin-left: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.safeStylOn {
+    margin-right: 10px;
+    
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: medium;
+
+}
+
+.safeStylOff {
+    margin-right: 10px;
+    
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: medium;
+    text-decoration: line-through;
+}
+
+.notSafeStylOff {
+    margin-left: 10px;
+    
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: medium;
+    text-decoration: line-through;
+}
+
+.notSafeStylOn {
+    margin-left: 10px;
+    
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.bottom {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(146, 17, 140);
+    color: rgb(252, 252, 252);
+    font-style: oblique;
+    font-size: small;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 0;
+}
