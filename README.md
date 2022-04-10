@@ -69,12 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `---------------------------------------------------------------------------`
+### `--------------------------------------------------------------------------`
 
 ### `Instrukcja obsługi`
 
 Stwórz folder. Nazwa folderu musi być z małych liter. Przejdź do folderu.
-I wpisz następujące komendy:
+Pobierz wszystkie pliki z tego repozytorium z githaba.
+
+Potem wpisz następujące komendy:
 
 ### `npx create-react-app .`
 Do stworzenia aplikacji react!!!
