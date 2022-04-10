@@ -69,5 +69,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### `-------------------------------------------------------------------------------`
+
+### `Instrukcja obsługi`
+
+Stwórz folder. Nazwa folderu musi być z małych liter. Przejdź do folderu.
+I wpisz następujące komendy:
+
+### `npx create-react-app .`
+Do stworzenia aplikacji react!!!
+
 ### `npm install styled-components@^5.0.0 react@^16.8 react-dom@^16.8 react-is@^16.8`
-WAŻNE!!! Do poprawnego działania projektu jest potrzebna paczka styled-components!!!
+Do poprawnego działania projektu paczkę styled-components!!!
+
+Komenda do uruchomienia tego projektu jest pierwszą wypisaną komendą w tym pliku!!!
